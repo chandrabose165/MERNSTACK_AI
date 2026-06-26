@@ -1,0 +1,20 @@
+p{
+color:yellow;
+background-color:green;
+font-size:30px;
+padding: 5px;
+text-align:center;
+}
+input{
+width:50%;
+font-size:30px;
+}
+button{
+display:block;
+marign: 0 auto;
+}
+.parent-container{
+diplay:felx;
+justify-content: center;
+align-item:center;
+}
