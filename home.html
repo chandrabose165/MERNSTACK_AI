@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: lavender;
+        padding-top: 100px;
+        justify-items: center;
+    }
+.traffic-light {
+  width: 100px;
+  height: 280px;
+  background-color: #887474;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Base style for circles */
+.light {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.red { background-color: #ff3b30; }
+.yellow { background-color: #ffcc00; }
+.green { background-color: #4cd964; }
+
+</style>
+<body>
+    <div class="traffic-light">
+  <div class="light red"></div>
+  <div class="light yellow"></div>
+  <div class="light green"></div>
+</div>
+</body>
+</html>
