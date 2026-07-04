@@ -1,0 +1,118 @@
+<html>
+<head>
+    <title>Google page</title>
+    <style>
+*{
+margin:0;
+padding:0;
+}
+nav{
+display: flex;
+justify-content: space-between;
+padding: 15px 30px;
+box-shadow: 0px 1px 2px  rgb(133, 132, 132,0.5);
+}
+#left a{
+color: black;
+text-decoration: none;
+font-family:Arial, Helvetica, sans-serif;
+}
+#left a:hover{
+text-decoration: underline;
+}
+#right a{
+color: black;
+text-decoration: none;
+font-family: 'Times New Roman', Times, serif;
+padding-left: 2px;
+}
+#right a:hover{
+text-decoration: underline;
+}
+.img a{
+width:30%;
+height:30%;
+display:flex;
+margin: 80px 0px 0px 33%;
+}
+.searchcontainer{
+background-color:transparent;
+width:40%;
+margin-left:500px;
+border: 1px solid black;
+box-shadow: 0px 5px  8px rgba(74, 74, 76, 0.5);
+border-radius: 25px;
+}
+.searchinput{
+width: 90%;
+height: 35px;
+font-size: 16px;
+border-radius: 15px;
+border: none;
+margin: 0px 0px 4px 0px ;
+border-radius: 20px;
+outline:none;
+}
+.searchbutton{
+background-color:transparent;
+border: 0px;
+margin-bottom: 0%;
+}
+.icon{
+display: flex;
+margin-top: 5px;
+background-color:transparent;
+width:50px;
+height:30px;
+margin-bottom: 0%;
+border-radius: 50%;
+cursor:pointer;
+}
+.inputtype{
+display: flex;
+justify-content: center;
+border-radius:10px ;
+margin: 50px 0px 0px 0px;
+padding: 0px 5px 0px 5px;
+}
+.inputtype input{
+margin-left: 15px;
+cursor: pointer;
+padding: 5px 5px 5px 5px;
+border-radius: 4px;
+}
+</style>
+</head>
+
+<body>
+    <nav>
+        <div id="left">
+            <a href="#About">About</a>
+            <a href="#Share">Share</a>
+        </div>
+        <div id="right">
+            <a href="#Gmail">Gmail</a>
+            <a href="#Images">Images</a>
+            <a href="#Searchlabs">SearchLabs</a>
+        </div>
+    </nav>
+    <div class="img">
+        <a href="https://www.google.com/"><img src="google.png"/></a>
+    </div>
+
+
+
+<div class="searchcontainer">
+
+    <input class="searchinput" type="text" placeholder="Search" />
+    <button class="searchbutton">
+    <img src="Searchimage.png" alt="searchbox" class="icon" /> 
+    </button>
+</div>
+<div class="inputtype">
+    <input type="button"  value="Googlesearch" />
+    <input type="button" value="I'm Feeling Lucky" />
+</div>
+</div>
+</body>
+</html>
