@@ -1,11 +1,73 @@
 <html lang="en">
 <head>
-<link rel="stylesheet" href="Style.css">
+<style>
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+background-color: black;
+max-width: 300px;
+max-height: 500px;
+padding: 50px 20px 30px 20px;
+row-gap: 10px;
+border-radius: 15px;   
+}
+.display-container{
+grid-column-start:1;
+grid-column-end:5;
+height:50px;
+background-color: black;
+color:white;
+font-size:40px;
+text-align:right;
+padding: 15px;
+border-radius:10px;
+margin-bottom: 8px;
+}
+.history{
+    font-size: 20px;
+    color: gray ;
+}
+.btn{
+cursor: pointer;
+height: 60px;
+width: 60px;
+border-radius: 15px;
+background-color: rgb(101, 98, 98);
+color: white;
+border: none;
+}
+.btn:hover{
+background-color: rgb(125, 112, 112);
+border-radius:20px ;
+}
+.zero{
+grid-column-start:1;
+grid-column-end:3;
+width: 135px;
+}
+.zero:hover{
+background-color: rgb(124, 116, 116);
+}
+.btn-gray{
+background-color: gray;
+}
+.btn-gray:hover{
+background-color: rgb(95, 89, 89);
+}
+.orange{
+background-color: orange;
+}
+.orange:hover{
+background-color: rgb(223, 148, 8);
+}</style>
 <title>Simple_Calci</title>
 </head>
 <body> 
 <div class="container">
-<div class="display">0</div>
+<div class="display-container">
+   <div class="history">1</div>
+   <div class="display" >0</div> 
+</div>
 <button class="btn btn-gray">C</button> <button class="btn btn-gray">+/-</button>
 <button class="btn btn-gray">%</button> <button class="btn orange">/</button>
 <button class="btn">7</button><button class="btn">8</button><button class="btn">9</button>
