@@ -1,23 +1,20 @@
 .sidebar{
-    margin-right: 20px;
-    min-height: 90%;
-    float: left;
-    align-items: center;
-}
-.sidebar img
-{
-    width: 45px;
+    height: 100vh;
+    position: fixed;
+    top:72px;
+    padding-left: 5px;
+    width: 50px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin-bottom: 20px;
     cursor: pointer;
-}   
+}
+.sidebar img{
+    margin-bottom: 40px;
+}
 .sidebar .home
 {
     margin-top:15px;
 }
 .sidebar img:hover{
-    border-radius: 8px;
-    box-shadow: 0px 0px 1px 1px #534e4e;
+    box-shadow: 0px 0px 8px  #534e4e;
 }
