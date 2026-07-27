@@ -1,0 +1,40 @@
+form{
+    padding: 15px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    width:30%;
+    height: 40%;
+    margin-left: 35%;
+    margin-top: 5%;
+    
+}
+form:hover{
+    box-shadow: 0px 0px 9px 1px black;
+}
+p{
+   text-align: left;
+   margin-top: 15px; 
+}
+p input{
+    align-items: center;
+}
+.btn{
+    margin-left: 90px;
+}
+.btn input{
+    width: 100px;
+    margin-right: 10px;
+}
+.btn input:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+input{
+    font-size: 18px;
+    width: 90%;
+    height: 50px;
+    border-radius: 8px;
+}
+input:hover{
+    border: none;
+}
