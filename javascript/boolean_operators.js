@@ -1,0 +1,8 @@
+let Num_1 = true;
+let Num_2 = false;
+let addition = Num_1 && Num_2;
+let or_operator = Num_1 || Num_2;
+let not_operator = !Num_2;
+console.log(addition); // The both condition is true it will print true or else it will print false
+console.log(or_operator); // If one condition is true it print the true
+console.log(not_operator); // If the condition is true it will print false like a opposite of the values

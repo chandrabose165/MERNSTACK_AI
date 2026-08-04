@@ -1,7 +1,3 @@
-<html>
-<head><title>Adding and subtraction</title></head>
-<body>
-<script>
 /* let a = 4;
 let b = 5;
 a+=10;
@@ -18,13 +14,8 @@ document.write(z + "<br>");
 z -= 5;
 document.write(z);
 */
-let x =10;
+let x = 10;
 let y = 20;
 document.write((x > y) + "<br>");
 document.write((x < y) + "<br>");
 document.write((x >= y) + "<br>");
-document.write((x <= y) + "<br>");
-
-</script>
-</body>
-</html>
