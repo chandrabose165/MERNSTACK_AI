@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>operators</title>
-</head>
-<body>
-<script>
+
 // Arithmemtic opertors
 let Num_1 = 10;
 let Num_2 = 20;
@@ -18,6 +12,3 @@ console.log(subtraction);
 console.log(Multiply);
 console.log(Divison);
 console.log(float);
-</script>
-</body>
-</html>
